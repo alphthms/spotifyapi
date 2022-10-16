@@ -1,0 +1,118 @@
+
+  .container {
+    height: inherit; /* get parent height */
+    width: 1170px;   /* add 970px for smaller screen */
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+  }
+
+
+
+  body {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100%;
+  background-image: url("gradient.png");
+
+}
+
+
+  h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #d5cdc4;
+  font-size: 90px;
+  text-align: center;
+  width: 14em;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%) translateY(-130%)
+}
+
+.image2{
+    border-radius: 60%;
+    width: 17em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(60%)
+}
+
+.image3{
+    border-radius: 60%;
+    width: 17em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%) translateY(60%)
+}
+
+.image4{
+    border-radius: 60%;
+    width: 17em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-170%) translateY(60%)
+}
+
+.btn-spotify {
+    width: 260px;
+    margin: 0 auto;
+    color: white;
+    background-color: #1db954;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transform: translate(315%) translateY(1000%)
+}
+  
+
+   .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+
+    .spotify-logo {
+    width: 132px;
+    height: 40px;
+    margin: 1px 0; 
+  }
+
+
+  
+
+
+  @keyframes textTransition {
+  100% {
+    transform: translateY(457px);
+  }
+  100% {
+    transform: translateX(-100);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.transition-up {
+  animation: textTransition 1.5s;
+}
